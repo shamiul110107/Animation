@@ -13,6 +13,13 @@
 		2647691E203A9C10002C3EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2647691D203A9C10002C3EE3 /* Assets.xcassets */; };
 		26476921203A9C10002C3EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2647691F203A9C10002C3EE3 /* LaunchScreen.storyboard */; };
 		26476924203A9C10002C3EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26476923203A9C10002C3EE3 /* main.m */; };
+		2647692B203A9E9C002C3EE3 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2647692A203A9E9C002C3EE3 /* images.jpeg */; };
+		2647692D203A9F9B002C3EE3 /* road.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2647692C203A9F9B002C3EE3 /* road.jpeg */; };
+		26476930203AA064002C3EE3 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2647692E203AA064002C3EE3 /* car1.png */; };
+		26476931203AA064002C3EE3 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 2647692F203AA064002C3EE3 /* car.png */; };
+		26476934203AA709002C3EE3 /* British-airways_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26476932203AA709002C3EE3 /* British-airways_icon.png */; };
+		26476935203AA709002C3EE3 /* british-airways-plane-transparent-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 26476933203AA709002C3EE3 /* british-airways-plane-transparent-background.png */; };
+		26476937203AA714002C3EE3 /* guyparachute.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26476936203AA713002C3EE3 /* guyparachute.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		26476920203A9C10002C3EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26476922203A9C10002C3EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26476923203A9C10002C3EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2647692A203A9E9C002C3EE3 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		2647692C203A9F9B002C3EE3 /* road.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = road.jpeg; sourceTree = "<group>"; };
+		2647692E203AA064002C3EE3 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		2647692F203AA064002C3EE3 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		26476932203AA709002C3EE3 /* British-airways_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "British-airways_icon.png"; sourceTree = "<group>"; };
+		26476933203AA709002C3EE3 /* british-airways-plane-transparent-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "british-airways-plane-transparent-background.png"; sourceTree = "<group>"; };
+		26476936203AA713002C3EE3 /* guyparachute.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guyparachute.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 		26476913203A9C10002C3EE3 /* AnimationCore */ = {
 			isa = PBXGroup;
 			children = (
+				26476936203AA713002C3EE3 /* guyparachute.gif */,
+				26476932203AA709002C3EE3 /* British-airways_icon.png */,
+				26476933203AA709002C3EE3 /* british-airways-plane-transparent-background.png */,
+				2647692F203AA064002C3EE3 /* car.png */,
+				2647692E203AA064002C3EE3 /* car1.png */,
+				2647692C203A9F9B002C3EE3 /* road.jpeg */,
+				2647692A203A9E9C002C3EE3 /* images.jpeg */,
 				26476914203A9C10002C3EE3 /* AppDelegate.h */,
 				26476915203A9C10002C3EE3 /* AppDelegate.m */,
 				26476917203A9C10002C3EE3 /* ViewController.h */,
@@ -129,8 +150,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26476931203AA064002C3EE3 /* car.png in Resources */,
 				26476921203A9C10002C3EE3 /* LaunchScreen.storyboard in Resources */,
+				2647692B203A9E9C002C3EE3 /* images.jpeg in Resources */,
+				26476930203AA064002C3EE3 /* car1.png in Resources */,
+				26476937203AA714002C3EE3 /* guyparachute.gif in Resources */,
 				2647691E203A9C10002C3EE3 /* Assets.xcassets in Resources */,
+				26476934203AA709002C3EE3 /* British-airways_icon.png in Resources */,
+				26476935203AA709002C3EE3 /* british-airways-plane-transparent-background.png in Resources */,
+				2647692D203A9F9B002C3EE3 /* road.jpeg in Resources */,
 				2647691C203A9C10002C3EE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +307,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
 				INFOPLIST_FILE = AnimationCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
 				INFOPLIST_FILE = AnimationCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
